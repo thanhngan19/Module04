@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Blog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PictureOfDay" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring_jpa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss1_ex1_changeMoney" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss2_ex1_Calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss2_ex2_SanwichCondiment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss2_ex3_MVC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss3_ex1_Mail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss3_ex2_Music" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss3_ex3_Form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss4_ex1_thymeleaf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss5_ORM_Music" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss8_ex1_Form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss8_ex2_Music" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ss_1_ex2_Translate" vcs="Git" />
+  </component>
+</project>

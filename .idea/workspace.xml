@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c955381a-8bed-44fb-9c8b-88f66b1479ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/BlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/dto/BlogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/repository/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/java/com/example/blog/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/resources/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/main/resources/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/src/test/java/com/example/blog/BlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/PictureOfDayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/controller/PictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/model/FeedBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/model/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/repository/IFeedBackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/repository/IPictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/service/FeedBackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/service/IFeedBackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/service/IPictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/java/com/example/pictureofday/service/PictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/resources/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PictureOfDay/src/test/java/com/example/pictureofday/PictureOfDayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/student/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/student/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/student/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/student/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/student/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/student/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/WEB-INF/views/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/WEB-INF/views/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/SpringJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/model/ClassRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/model/Jame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/service/IStudentSsrvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/java/com/example/spring_jpa/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_jpa/src/test/java/com/example/spring_jpa/SpringJpaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/src/main/java/com/example/ss1_ex1_changemoney/controller/MoneyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_ex1_changeMoney/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/src/main/java/com/example/ss2_ex1_calculator/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex1_Calculator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/src/main/java/com/example/ss2_ex2_sanwichcondiment/controller/SandWichController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex2_SanwichCondiment/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/java/com/example/ss2_ex3_mvc/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/java/com/example/ss2_ex3_mvc/model/student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/java/com/example/ss2_ex3_mvc/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/java/com/example/ss2_ex3_mvc/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/java/com/example/ss2_ex3_mvc/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/java/com/example/ss2_ex3_mvc/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss2_ex3_MVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/java/com/example/ss3_ex1_mail/controller/MailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/java/com/example/ss3_ex1_mail/model/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/java/com/example/ss3_ex1_mail/repository/IMailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/java/com/example/ss3_ex1_mail/repository/MailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/java/com/example/ss3_ex1_mail/service/IMailSerice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/java/com/example/ss3_ex1_mail/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex1_Mail/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/java/com/example/ss3_ex2_music/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/java/com/example/ss3_ex2_music/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/java/com/example/ss3_ex2_music/repository/IMusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/java/com/example/ss3_ex2_music/repository/MusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/java/com/example/ss3_ex2_music/service/IMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/java/com/example/ss3_ex2_music/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/webapp/WEB-INF/views/Upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex2_Music/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/controller/FormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/model/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/repository/FormRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/repository/IFormRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/service/FormService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/service/IFormSevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3_ex3_Form/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_ORM_Music/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/Ss8Ex1FormApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/java/com/example/ss8_ex1_form/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/resources/templates/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex1_Form/src/test/java/com/example/ss8_ex1_form/Ss8Ex1FormApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/Ss8Ex2MusicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/dto/MusicDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/repository/IMusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/service/IMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/java/com/example/ss8_ex2_music/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_ex2_Music/src/test/java/com/example/ss8_ex2_music/Ss8Ex2MusicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/src/main/java/com/example/ss_1_ex2_translate/controller/TranslateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_1_ex2_Translate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/demo_spring_mvc/demo_spring_mvc">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/demo" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2VVIqqU1YbgME8gNbIvXk3x4uHE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/new_volum/codegym/Module04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "0d870b17ba0e74a21d5bfbe15e551523",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c955381a-8bed-44fb-9c8b-88f66b1479ac" name="Changes" comment="" />
+      <created>1694915015125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694915015125</updated>
+      <workItem from="1694915016406" duration="6093000" />
+      <workItem from="1694928741180" duration="3318000" />
+      <workItem from="1694998859011" duration="6064000" />
+      <workItem from="1695022398496" duration="48000" />
+      <workItem from="1698032569873" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

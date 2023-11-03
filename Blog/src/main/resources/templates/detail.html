@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4 th:text="${list.getHeader()}"></h4> <br>
+Ngày Tạo Blog: <p th:text="${list.getCreateDate()}"></p> <br>
+Ngày Sửa Blog: <p th:text="${list.getUpdateDate()}"></p> <br>
+<p th:text="${list.getContentPrimary()}"></p> <br>
+<h4 th:text="${list.getFooter()}"></h4>
+</body>
+</html>
