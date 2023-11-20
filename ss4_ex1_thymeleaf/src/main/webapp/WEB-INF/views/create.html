@@ -27,12 +27,11 @@
     </style>
 </head>
 <body>
-
 <div class="parent">
     <div class="child">
-        <h1>Thêm thông tin sản phẩm</h1>
         <form method="post" th:object="${product}" action="/product/create">
-                <div class="mb-3">
+            <h1>Thêm sản phẩm</h1>
+            <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">ID</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" th:field="*{id}">
                 </div>

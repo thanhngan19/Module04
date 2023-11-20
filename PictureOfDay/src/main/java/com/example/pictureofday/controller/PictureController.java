@@ -42,7 +42,8 @@ public class PictureController {
         return"redirect:/picture/list";
     }
     @GetMapping("/list")
-    public String list(@PageableDefault(page=0,size=4,sort="author",direction= Sort.Direction.ASC) Pageable pageable,
+    public String list(@PageableDefault(page=0,size=4,sort="author",direction= Sort.Direction.ASC)
+                           Pageable pageable,
                        Model model){
         long millis=System.currentTimeMillis();
         java.sql.Date date=new java.sql.Date(millis);

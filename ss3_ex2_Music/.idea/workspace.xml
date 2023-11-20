@@ -5,28 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e02ce8a-63f8-41d5-ad19-fb5f7ef1009f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss3_ex2_music/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss3_ex2_music/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss3_ex2_music/repository/IMusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss3_ex2_music/repository/MusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss3_ex2_music/service/IMusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss3_ex2_music/service/MusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Upload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/model/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PictureOfDay/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../PictureOfDay/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_thymeleaf (1)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_thymeleaf (1)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_thymeleaf (1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_thymeleaf (1)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_thymeleaf (1)/demo_spring_mvc/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_thymeleaf (1)/demo_spring_mvc/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss1_ex1_changeMoney/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1_ex1_changeMoney/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_ex2_SanwichCondiment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_ex2_SanwichCondiment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_ex2_SanwichCondiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_ex2_SanwichCondiment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_ex1_Mail/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_ex1_Mail/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_ex3_Form/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_ex3_Form/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/controller/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/model/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_ex3_Form/src/main/java/com/example/ss3_ex3_form/model/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss3_ex3_Form/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss3_ex3_Form/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_MVC_Thymeleaf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_MVC_Thymeleaf/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/java/com/example/ss4_ex1_thymeleaf/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4_ex1_thymeleaf/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5_ORM_Music/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5_ORM_Music/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5_ORM_Music/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5_ORM_Music/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/repository/IStudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/java/com/example/ss5_orm_music/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5_ORM_Music/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +73,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -87,7 +97,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/new_volum/codegym/Module04/ss3_ex3_Form",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -210,6 +220,7 @@
       <workItem from="1696689103605" duration="11000" />
       <workItem from="1697167484474" duration="174000" />
       <workItem from="1698239797478" duration="33000" />
+      <workItem from="1699891392655" duration="12000" />
     </task>
     <servers />
   </component>

@@ -9,9 +9,9 @@ public class ProductRepository implements IProductRepository{
     //    id, tên sản phẩm, giá sản phẩm, mô tả của sản phẩm, nhà sản xuất.
     public static ArrayList<Product> getProductList= new ArrayList<Product>();
     static {
-        getProductList.add(new Product(1,"promax1",2000,"phone","uk-us"));
-        getProductList.add(new Product(2,"pro2",2000,"phone","uk-us"));
-        getProductList.add(new Product(3,"promax",2000,"phone","uk-us"));
+        getProductList.add(new Product(1,"promax1",2000,"phone","th"));
+        getProductList.add(new Product(2,"pro2",2000,"phone","th"));
+        getProductList.add(new Product(3,"promax",2000,"phone","th3"));
     }
     @Override
     public ArrayList<Product> findAll() {

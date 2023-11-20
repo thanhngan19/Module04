@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+
+    <style>
+        .parent {
+
+            width: 100vw;
+            height: 100vh;
+
+            /* additional style */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child {
+            width: 750px;
+            height: 750px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="child">
+<img id="img-of-the-day" width="400px" height="400px">
+<script>
+    let query = 'https://api.nasa.gov/planetary/apod?api_key=i5JLRP1m3ojas2X4BL9udus4yOMnmjphAoa6zi0F';
+    let request = new XMLHttpRequest();
+    request.open('GET', query);
+    request.onload = function() {
+        if (request.status === 200) {
+            let response = JSON.parse(request.responseText);
+            document.getElementById('img-of-the-day').setAttribute('src', response.url);
+        }
+    };
+    request.send();
+</script>
+<form action="/picture/save" method="post" th:object="${feedBack}">
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Author</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" th:field="*{author}">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">FeddBack</label>
+        <input type="text" class="form-control" id="exampleInputEma" aria-describedby="emailHelp" th:field="*{feedBack}">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Comment</label>
+         <select th:field="*{point}" class="form-select" aria-label="Default select example">
+        <option  th:each="cate:${list}" th:text="${cate.getName()}" th:value="${cate.getId()}"></option>
+    </select>
+    </div>
+    <button type="submit" class="btn btn-primary">COMMENT</button>
+</form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,5 +1,7 @@
 package com.example.ss3_ex3_form.model;
 
+import java.time.LocalDate;
+
 public class Form {
     private String name;
     private String birthday;
@@ -8,9 +10,9 @@ public class Form {
     private String CMND;
     private String [] vehicle;
     private String idVehicle;
-    private String date;
-    private String month;
-    private String year;
+    private LocalDate startDate;
+    private LocalDate endDate;
+
     private String city;
     private String province;
     private String district;
@@ -24,7 +26,7 @@ public class Form {
     public Form() {
     }
 
-    public Form(String name, String birthday, String gender, String nationality, String CMND, String[] vehicle, String idVehicle, String date, String month, String year, String city, String province, String district, String ward, String email, String address, String phoneNumber, String[] symptom, String[] infection) {
+    public Form(String name, String birthday, String gender, String nationality, String CMND, String[] vehicle, String idVehicle, LocalDate startDate, LocalDate endDate, String city, String province, String district, String ward, String email, String address) {
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
@@ -32,18 +34,14 @@ public class Form {
         this.CMND = CMND;
         this.vehicle = vehicle;
         this.idVehicle = idVehicle;
-        this.date = date;
-        this.month = month;
-        this.year = year;
+        this.startDate = startDate;
+        this.endDate = endDate;
         this.city = city;
         this.province = province;
         this.district = district;
         this.ward = ward;
         this.email = email;
         this.address = address;
-        this.phoneNumber = phoneNumber;
-        this.symptom = symptom;
-        this.infection = infection;
     }
 
     public String getName() {
@@ -102,28 +100,20 @@ public class Form {
         this.idVehicle = idVehicle;
     }
 
-    public String getDate() {
-        return date;
+    public LocalDate getStartDate() {
+        return startDate;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setStartDate(LocalDate startDate) {
+        this.startDate = startDate;
     }
 
-    public String getMonth() {
-        return month;
+    public LocalDate getEndDate() {
+        return endDate;
     }
 
-    public void setMonth(String month) {
-        this.month = month;
-    }
-
-    public String getYear() {
-        return year;
-    }
-
-    public void setYear(String year) {
-        this.year = year;
+    public void setEndDate(LocalDate endDate) {
+        this.endDate = endDate;
     }
 
     public String getCity() {
